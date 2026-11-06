@@ -23,11 +23,3 @@ console.log(result); // Outputs: "2024 is a leap year."
 console.log(isLeapYear(2000)); // Outputs: "2000 is a leap year."
 console.log(isLeapYear(1900)); // Outputs: "1900 is not a leap year."
 console.log(isLeapYear(1901)); // Outputs: "1901 is not a leap year."
-
-console.log("Using Ternary Operator");
-function isLeapYear(year) {
-  return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0
-    ? `${year} is a leap year.`
-    : `${year} is not a leap year.`;
-} 
-console.log(isLeapYear(2001));
